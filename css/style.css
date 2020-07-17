@@ -105,6 +105,9 @@ body {
 
 .div-table__row {
   display: flex;
+}
+
+.div-table__row .table__cell {
   min-height: 150px;
 }
 
