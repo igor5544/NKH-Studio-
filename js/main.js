@@ -29,7 +29,7 @@
   });
 
   function onAccordionBtnClick() {
-    let activeАccordionElement = accordionElement.querySelector('.accordion__title--active');
+    let activeАccordionElement = accordionElement.querySelector('.main-accordion__title--active');
     let i = accordionBtnsList.indexOf(this);
     let contentSelector = '.main-accordion__content:eq(' + i + ')';
 
@@ -44,6 +44,6 @@
     }
 
     accordionContentsElements[i].classList.toggle('main-accordion__content--active');
-    this.classList.toggle('accordion__title--active');
+    this.classList.toggle('main-accordion__title--active');
   }
 }
